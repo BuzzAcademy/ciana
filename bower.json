@@ -1,0 +1,21 @@
+{
+  "name": "ciana",
+  "authors": [
+    "Hunter Wu <hunter.wu@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/vendors/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "admin-lte": "adminLTE#^2.4.2"
+  }
+}
