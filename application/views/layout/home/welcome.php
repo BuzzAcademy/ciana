@@ -669,6 +669,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Theme JavaScript -->
     <script src="/public/vendors/startbootstrap-agency/js/agency.min.js"></script>
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?= $this->config->item('ga_tracking_id') ?>"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '<?= $this->config->item('ga_tracking_id') ?>');
+</script>
 </body>
 
 </html>

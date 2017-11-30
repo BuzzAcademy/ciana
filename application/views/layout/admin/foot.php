@@ -8,3 +8,12 @@
 <script src="<?= $script ?>"></script>
 <?php   endforeach; ?>
 <?php endif; ?>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=<?= $this->config->item('ga_tracking_id') ?>"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '<?= $this->config->item('ga_tracking_id') ?>');
+</script>

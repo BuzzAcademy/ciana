@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+$config['ga_tracking_id'] = 'UA-110476586-2';
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
